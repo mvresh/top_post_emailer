@@ -18,7 +18,7 @@ from_email = args.two
 password = args.three
 subreddit = args.four
 
-r = praw.Reddit(user_agent='pushq')
+r = praw.Reddit(user_agent='Pytoresh')
 submissions = r.get_subreddit(subreddit).get_top(limit=1)
 
 for top in submissions:
